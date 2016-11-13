@@ -16,11 +16,4 @@ angular.module('zuoyeApp')
     	$scope.syy=e
      })
   })
-  .controller('new', function ($scope,$http) {
-    $http({
-    	url:"http://www.somenote.cn:1602/list2",
-    	method:"get",
-    }).success(function(e){
-    	$scope.syy=e
-     })
-  })
+ 
